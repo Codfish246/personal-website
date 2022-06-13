@@ -53,8 +53,8 @@
       <a class="link" href="https://twitter.com/Codfish246" target="_blank">
         <i class="fab fa-twitter">&nbsp;</i>Twitter
       </a>
-      <a class="link" href="" target="_blank">
-        <i class="fab fa-discord">&nbsp;</i>Discord: Codfish246#0075
+      <a class="link" href="#" target="" id="discordcopy">
+        <i class="fab fa-discord">&nbsp;</i>Discord
       </a>
       <a class="link" href="https://spacehey.com/codfish" target="_blank">
         <i class="fas fa-user-friends">&nbsp;</i>SpaceHey
@@ -75,6 +75,20 @@
         <i class="fab fa-youtube">&nbsp;</i>YouTube
       </a>
     </div>
+    
+    <script>
+      document.getElementById("discordcopy")
+        .onclick = function() {
+          let text = "Codfish246#0075"
+          navigator.clipboard.writeText(text)
+            .then(() => {
+              alert('Codfish246#0075 copied to clipboard');
+            })
+            .catch(err => {
+              alert('Error copying text: ', err);
+            });
+        }
+    </script>
 
     <div id="hashtag">
       #BeHappy❤
