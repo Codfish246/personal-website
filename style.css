@@ -23,14 +23,15 @@ body {
     position: relative;
 }
 
+/* twemoji test
+makes the emojis non-reactive to any mouse events such as dragging, hovering, clicking etc.
+since using SVGs, have to change the width using CSS
 img.emoji {
-    /* since using SVGs, have to change the width using CSS */
     width:1.5em;
 
-    /* makes the emojis non-reactive to any mouse events such as dragging, hovering, clicking etc.
-    */
     pointer-events: none; 
 }
+*/
 
 #profilePicture, #profilePicture img {
     position: relative;
