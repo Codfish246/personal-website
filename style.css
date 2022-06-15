@@ -23,6 +23,15 @@ body {
     position: relative;
 }
 
+img.emoji {
+    /* since using SVGs, have to change the width using CSS */
+    width:1.5em;
+
+    /* makes the emojis non-reactive to any mouse events such as dragging, hovering, clicking etc.
+    */
+    pointer-events: none; 
+}
+
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
@@ -173,8 +182,8 @@ body {
 }
 
 .popup-quote {
-    font-family : Baskerville, Georgia, serif;
-    font-style : italic;
+    /* font-family : Baskerville, Georgia, serif;
+    font-style : italic; */
     position: flex;
     color: var(--accentColor);
     padding: 20px;

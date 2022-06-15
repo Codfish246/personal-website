@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codfish246 | Hi</title>
     <!-- Favicon -->
@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="style.css">
     <!-- Twemoji -->
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    <script>
+      window.onload = function() {    
+          // Parses the document body and inserts <img> tags in place of Unicode Emojis    
+          twemoji.parse(document.body, 
+                  {folder: 'svg', ext: '.svg'} // This is to specify to Twemoji to use SVGs and not PNGs
+          );
+      }
+  </script>
   </head>
 
   <body>
@@ -47,17 +55,17 @@
     </div>
 
     <div id="links">
-      <a class="link" href="https://github.com/johnggli" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>Github
-      </a>
-      <a class="link" href="https://steamcommunity.com/id/Codfish246/" target="_blank">
-        <i class="fab fa-steam">&nbsp;</i>Steam
-      </a>
       <a class="link" href="https://twitter.com/Codfish246" target="_blank">
         <i class="fab fa-twitter">&nbsp;</i>Twitter
       </a>
       <a class="link" href="#" target="" id="discordcopy">
         <i class="fab fa-discord">&nbsp;</i>Discord
+      </a>
+      <a class="link" href="https://telegram.me/codfish246" target="_blank">
+        <i class="fab fa-telegram">&nbsp;</i>Telegram
+      </a>
+      <a class="link" href="https://steamcommunity.com/id/Codfish246/" target="_blank">
+        <i class="fab fa-steam">&nbsp;</i>Steam
       </a>
       <a class="link" href="https://spacehey.com/codfish" target="_blank">
         <i class="fas fa-user-friends">&nbsp;</i>SpaceHey
@@ -65,11 +73,11 @@
       <a class="link" href="https://tech.lgbt/@codfish246" target="_blank">
         <i class="fab fa-mastodon">&nbsp;</i>Mastodon
       </a>
+      <a class="link" href="https://github.com/johnggli" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
       <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
         <i class="fab fa-spotify">&nbsp;</i>Spotify
-      </a>
-      <a class="link" href="https://telegram.me/codfish246" target="_blank">
-        <i class="fab fa-telegram">&nbsp;</i>Telegram
       </a>
       <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
         <i class="fab fa-twitch">&nbsp;</i>Twitch
@@ -79,7 +87,8 @@
       </a>
     </div>
     
-    <script>
+    <!-- clipboard copying for discord user/discrim -->
+    <script> 
       document.getElementById("discordcopy")
         .onclick = function() {
           let text = "Codfish246#0075"
@@ -94,7 +103,7 @@
     </script>
 
     <div id="hashtag">
-      #BeHappy❤
+      #BeHappy
     </div>
   </body>
 </html>
