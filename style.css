@@ -92,6 +92,8 @@ img.emoji {
     color: var(--bgColor);
 }
 
+/* 
+disabling for now
 #hashtag {
     position: relative;
     padding-bottom: 20px;
@@ -100,9 +102,10 @@ img.emoji {
     display: block;
     font-family: var(--font);
     width: 100%;
-    text-align: center;
+    text-align: center; */
 
     /*  animation   */
+    /*
     overflow: hidden;
     background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
     background-repeat: no-repeat;
@@ -112,6 +115,7 @@ img.emoji {
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
+*/
 
 
 /*-------------------------animations-----------------------*/
