@@ -1,7 +1,5 @@
 <p>Many thanks to johnggli for this project, this is my fork for a personal website.</p>
 
-<h1></h1>
-
 <h1 align="center">🌲 Linktree</h1>
 <h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
 
