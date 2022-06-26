@@ -1,18 +1,18 @@
-<!-- credit - fork of https://github.com/johnggli/linktree -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codfish246 | Hi</title>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Core theme CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Twemoji parse test
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codfish246 | Hi</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Core theme CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Twemoji parse test
     <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     <script>
       window.onload = function() {    
@@ -20,98 +20,119 @@
           twemoji.parse(document.body, 
                   {folder: 'svg', ext: '.svg'} // This is to specify to Twemoji to use SVGs and not PNGs
           );
-      } -->
-    <!-- pride coder corner -->
-    <script type="text/javascript" src="assets/codecorner.js"></script>
+      } 
+    -->
+  <!-- pride coder corner -->
+  <script type="text/javascript" src="assets/codecorner.js"></script>
   </script>
-  </head>
+</head>
 
-  <body>
-    <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </section>
-    <!-- End of Parallax Pixel Background Animation -->
+<body>
+  <!-- Parallax Pixel Background Animation -->
+  <section class="animated-background">
+    <div id="stars1"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </section>
 
-    <a id="profilePicture" href="#popup">
-      <img src="/assets/codfishpfp.webp" alt="Profile Picture">
-    </a>
+  <!-- gh animated corner https://github.com/eugena/github-animated-corners/ -->
+  <a target="_blank" href="https://github.com/codfish246/linktree" class="github-corner"
+    aria-label="View source on GitHub" title="View source on GitHub">
+    <svg width="80" height="80" viewBox="0 0 250 250"
+      style="fill:#808080; color:#24292e; position: absolute; top: 0; border: 0; left: 0;">
+      <path d="M 250,0 C 161.77265,85.894309 87.828547,162.17145 0,250 V 0 Z" class="octo-background"></path>
+      <path fill="currentColor" class="octo-body"
+        d="m 71.002213,54.99879 c -4,2 -7.999513,5.002687 -11.999513,9.002687 -4,4 -7.002684,7.99951 -9.002684,11.99951 -14,4.000003 -16.998291,8.996584 -16.998291,8.996584 4,8 8.998534,11.004638 10.998534,11.004638 0,6.000001 2.000735,10.997321 7.000732,15.997321 16.000003,16 29.997315,10.00195 40.997315,2.00195 0,3 0.998782,6.99854 4.998779,10.99854 l 12.005615,10.99853 c 1,2 -1.00097,5.99976 -1.00097,5.99976 l 26.99585,-26.99585 c 0,0 -3.99878,2 -4.99878,0 l -14.00147,-14.00147 c -3,-2.000003 -5.9956,-3.002931 -7.9956,-3.002931 8,-11 14.99804,-23.997316 -2.00195,-40.997316 -5.00001,-5 -9.997324,-7.000731 -15.997324,-7.000731 -9.74434,0.903981 -14.230117,2.806088 -19.000243,4.998778 z">
+      </path>
+      <path fill="currentColor"
+        d="m 101.55303,128.29138 c -9.000003,15 -19.000004,9 -19.000004,9 -7,-3 -11,-2 -11,-2 -7.000002,1 -1.999998,-3 -1.999998,-3 4.999996,-4.00001 11,-2 11,-2 10.000001,3 15.000001,-5 16.000001,-9"
+        style="transform-origin: 110px 120px;"></path>
+      <path fill="currentColor" class="octo-ear"
+        d="m 77.06046,38.961705 c 0,0 -5.000734,2.997313 -7.000734,15.997313 -0.02844,0.01437 0.01427,-0.0072 0,0 -0.01427,0.0072 0.468872,3.99055 0.468872,3.99055 L 90.326149,53.502673 89.041673,49.929736 C 88.037671,47.914124 86.024988,42.945949 77.060474,38.961721 Z"
+        style="transform-origin: 100px 80px;"></path>
+    </svg>
+  </a>
 
-    <div class="overlay" id="popup">
-      <div class="popup">
-        <div class="popup-photo">
-          <a href="/assets/codfishpfp.png" target="_blank">
-            <img src="/assets/codfishpfp.webp" alt="Profile Picture">
-          </a>
-        </div>
-        <div class="popup-quote">
-          <p>Hey, I'm a 19 year old techy guy into cybersecurity, dev 'n sysadmin stuff, science, gaming, and cats!</p>
-          <p><img alt="UK Flag" src="assets/twemojiUK.svg" height="40" width="40"> <img alt="Pride Flag" src="assets/twemojipride.svg" height="40" width="40"></p>
-        </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+  <a id="profilePicture" href="#popup">
+    <img src="/assets/codfishpfp.webp" alt="Profile Picture">
+  </a>
+
+  <div class="overlay" id="popup">
+    <div class="popup">
+      <div class="popup-photo">
+        <a href="/assets/codfishpfp.png" target="_blank">
+          <img src="/assets/codfishpfp.webp" alt="Profile Picture">
+        </a>
       </div>
+      <div class="popup-quote">
+        <p>Hey, I'm a <b id="age">19</b> year old techy guy into cybersecurity, dev 'n sysadmin stuff, science, gaming,
+          and cats!</p>
+        <p><img alt="UK Flag" src="assets/twemojiUK.svg" height="40" width="40"> <img alt="Pride Flag"
+            src="assets/twemojipride.svg" height="40" width="40"></p>
+      </div>
+      <a class="popup-close" onclick="history.back()">&times;</a>
     </div>
+  </div>
 
-    <div id="userName">
-      @codfish246
-    </div>
+  <div id="userName">
+    @codfish246
+  </div>
 
-    <div id="links">
-      <a class="link" href="https://twitter.com/Codfish246" target="_blank">
-        <i class="fab fa-twitter">&nbsp;</i>Twitter
-      </a>
-      <a class="link" href="#" id="discordcopy">
-        <i class="fab fa-discord">&nbsp;</i>Discord
-      </a>
-      <a class="link" href="https://telegram.me/codfish246" target="_blank">
-        <i class="fab fa-telegram">&nbsp;</i>Telegram
-      </a>
-      <a class="link" href="https://steamcommunity.com/id/Codfish246/" target="_blank">
-        <i class="fab fa-steam">&nbsp;</i>Steam
-      </a>
-      <a class="link" href="https://spacehey.com/codfish" target="_blank">
-        <i class="fas fa-user-friends">&nbsp;</i>SpaceHey
-      </a>
-      <a class="link" href="https://tech.lgbt/@codfish246" target="_blank">
-        <i class="fab fa-mastodon">&nbsp;</i>Mastodon
-      </a>
-      <a class="link" href="mailto:hi@codfish.gay" target="_blank">
-        <i class="fa fa-at" aria-hidden="true">&nbsp;</i>Email
-      </a>
-      <a class="link" href="https://github.com/Codfish246" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>Github
-      </a>
-      <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
-        <i class="fab fa-spotify">&nbsp;</i>Spotify
-      </a>
-      <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
-        <i class="fab fa-twitch">&nbsp;</i>Twitch
-      </a>
-      <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
-        <i class="fab fa-youtube">&nbsp;</i>YouTube
-      </a>
-    </div>
-    
-    <!-- clipboard copying for discord user/discrim -->
-    <script> 
-      document.getElementById("discordcopy")
-        .onclick = function() {
-          let text = "Codfish246#0075"
-          navigator.clipboard.writeText(text)
-            .then(() => {
-              alert('Codfish246#0075 copied to clipboard');
-            })
-            .catch(err => {
-              alert('Error copying text: ', err);
-            });
-        }
-    </script>
+  <div id="links">
+    <a class="link" href="https://twitter.com/Codfish246" target="_blank">
+      <i class="fab fa-twitter">&nbsp;</i>Twitter
+    </a>
+    <a class="link" href="#" id="discordcopy">
+      <i class="fab fa-discord">&nbsp;</i>Discord
+    </a>
+    <a class="link" href="https://telegram.me/codfish246" target="_blank">
+      <i class="fab fa-telegram">&nbsp;</i>Telegram
+    </a>
+    <a class="link" href="https://steamcommunity.com/id/Codfish246/" target="_blank">
+      <i class="fab fa-steam">&nbsp;</i>Steam
+    </a>
+    <a class="link" href="https://spacehey.com/codfish" target="_blank">
+      <i class="fas fa-user-friends">&nbsp;</i>SpaceHey
+    </a>
+    <a class="link" href="https://tech.lgbt/@codfish246" target="_blank">
+      <i class="fab fa-mastodon">&nbsp;</i>Mastodon
+    </a>
+    <a class="link" href="mailto:hi@codfish.gay" target="_blank">
+      <i class="fa fa-at" aria-hidden="true">&nbsp;</i>Email
+    </a>
+    <a class="link" href="https://github.com/Codfish246" target="_blank">
+      <i class="fab fa-github">&nbsp;</i>Github
+    </a>
+    <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
+      <i class="fab fa-spotify">&nbsp;</i>Spotify
+    </a>
+    <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
+      <i class="fab fa-twitch">&nbsp;</i>Twitch
+    </a>
+    <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
+      <i class="fab fa-youtube">&nbsp;</i>YouTube
+    </a>
+  </div>
 
-    <!-- disabling for now
-    <div id="hashtag">
-      be cat
-    </div> -->
-  </body>
+  <!-- clipboard copying for discord user/discrim -->
+  <script>
+    document.getElementById("discordcopy")
+      .onclick = function () {
+        let text = "Codfish246#0075"
+        navigator.clipboard.writeText(text)
+          .then(() => {
+            alert('Codfish246#0075 copied to clipboard');
+          })
+          .catch(err => {
+            alert('Error copying text: ', err);
+          });
+      }
+  </script>
+
+  <!-- disabling for now
+      <div id="hashtag">
+        be cat
+      </div> -->
+</body>
+
 </html>
