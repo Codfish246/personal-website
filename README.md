@@ -40,4 +40,4 @@ This is an open source project that serves as a free alternative to the Linktree
 
 ---
 
-With thanks to [johnggli](https://github.com/johnggli/linktree), [pride.codes](pride.codes), and [github-animated-corners](https://github.com/eugena/github-animated-corners)
+With thanks to [johnggli](https://github.com/johnggli/linktree), [pride.codes](https://pride.codes), and [github-animated-corners](https://github.com/eugena/github-animated-corners)
