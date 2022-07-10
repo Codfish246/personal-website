@@ -27,6 +27,50 @@ body {
   position: relative;
 }
 
+/* settings stuff test start */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.settings-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.settings-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Add a red background color to the cancel button */
+.settings-container .cancel {
+  background-color: darkslategrey;
+}
+
+/* Add some hover effects to buttons */
+.settings-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* settings stuff test end */
 
 /* pride.codes start */
 @media only screen and (min-width: 768px) {

@@ -71,6 +71,22 @@
       </label>
     </div>
     -->
+    <button class="open-button" onclick="openSettings()">Open settings</button>
+    <div class="settings-popup" id="settings">
+      <div class="settings-container">
+        <br/><br/><button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
+      </div>
+    </div>
+
+    <script>
+      function openSettings() {
+        document.getElementById("settings").style.display = "block";
+      }
+      
+      function closeSettings() {
+        document.getElementById("settings").style.display = "none";
+      }
+      </script>
 
     <a id="profilePicture" href="#popup">
       <img src="/assets/codfishpfp.webp" alt="Profile Picture">
