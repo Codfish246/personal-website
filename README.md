@@ -35,9 +35,10 @@
 ## 💡 About the project
 
 This is an open source project that serves as a free alternative to the Linktree website.
-- [Demo](https://johnggli.github.io/linktree)
+- [Dev](https://indev.codfish.gay)
 - [Live](https://codfish.gay)
 
+- [Demo](https://johnggli.github.io/linktree)
 ---
 
 With thanks to [johnggli](https://github.com/johnggli/linktree), [pride.codes](https://pride.codes), and [github-animated-corners](https://github.com/eugena/github-animated-corners)
