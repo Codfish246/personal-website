@@ -4,7 +4,7 @@ window.onload = function () {
   console.log("hour: " + n);
   if (n >= 21 || n < 1)
     $("body").css("background-image", "url('assets/night-small.webp')");
-  else if (n >= 5 && n <= 9)
+  else if (n >= 6 && n <= 9)
     $("body").css("background-image", "url('assets/sunrise.webp')");
   else if (n > 19 && n < 21)
     $("body").css("background-image", "url('assets/sunset.webp')");
