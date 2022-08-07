@@ -78,17 +78,26 @@
           <input type="checkbox">
           <span class="slider round"></span>
         </label>
-        <br/><br/><button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
+        <br/><br/>
+        <!-- <button type="button" class="btn cancel" onclick="closeSettings()">Close</button> -->
       </div>
     </div>
 
     <script>
-      function openSettings() {
+      /*function openSettings() {
         document.getElementById("settings").style.display = "block";
       }
-      
       function closeSettings() {
         document.getElementById("settings").style.display = "none";
+      }*/
+
+      function toggleSwitch() {
+        var elem = document.getElementById("settings");
+        if (elem.style.display == "block") {
+          elem.style.display = "none";
+        } else {
+          elem.style.display = "block";
+        }
       }
       </script>
 
