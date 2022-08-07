@@ -49,11 +49,12 @@ body {
 /* The popup form - hidden by default */
 .settings-popup {
   display: none;
-  position: fixed;
-  bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  /*left: 10px;
+  z-index: 0;*/
+
 }
 
 /* Add styles to the form container */
@@ -65,10 +66,11 @@ body {
 
 /* Add a red background color to the cancel button */
 .settings-container .cancel {
-  background-color: darkslategrey;
+  background-color: white;
+  cursor: pointer;
 }
 
-/* Add some hover effects to buttons */
+/* hover effect */
 .settings-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
