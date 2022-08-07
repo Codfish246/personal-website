@@ -57,14 +57,12 @@ body {
 
 }
 
-/* Add styles to the form container */
 .settings-container {
   max-width: 300px;
   padding: 10px;
   background-color: white;
 }
 
-/* Add a red background color to the cancel button */
 .settings-container .cancel {
   background-color: white;
   cursor: pointer;
