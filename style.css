@@ -29,18 +29,21 @@ body {
 
 /* settings stuff test start */
 
-/* Button used to open the contact form - fixed at the bottom of the page */
+/* Button used to open the contact form */
 .open-button {
   background-color: #555;
   color: white;
-  padding: 16px 20px;
-  border: none;
+  padding: 1px;
+  border-radius: 30px;
+  border: none; 
   cursor: pointer;
-  opacity: 0.8;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  /*object-position: left bottom;*/
 }
 
 /* The popup form - hidden by default */
