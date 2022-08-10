@@ -29,3 +29,18 @@ window.onload = function () {
   }
 
 };
+
+function setBgOption() {
+  var check1 = document.getElementById("check1");
+  if (check1.checked == true) {
+    localStorage.setItem("picBg", "true");
+    onload();
+    console.log("picBg set to true by user");
+  } else {
+    localStorage.setItem("picBg", "false");
+    $("body").css("background-image", "");
+    console.log("picBg set to false by user");
+  }
+}
+
+//let check = document.querySelector('input#check');
