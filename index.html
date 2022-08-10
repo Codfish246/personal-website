@@ -74,11 +74,12 @@
     <button class="open-button" onclick="toggleSwitch()"><i class="fas fa-cog fa-2x" aria-label="Settings"></i></button>
     <div class="settings-popup" id="settings">
       <div class="settings-container">
-        <h3>time-reactive<br/>  background</h3><label class="switch">
-          <input type="checkbox">
+        <h3>time-reactive <br/>background</h3>
+        <label class="switch">
+          <input type="checkbox" id="check1" onclick="setBgOption()">
           <span class="slider round"></span>
         </label>
-        <br/><br/>
+
         <!-- <button type="button" class="btn cancel" onclick="closeSettings()">Close</button> -->
       </div>
     </div>
