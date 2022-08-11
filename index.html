@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- base meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,18 +19,17 @@
     <meta property="og:description" content="Codfish's personal link-tree type website">
     <meta property="og:site_name" content="Codfish246">
     <meta property="og:locale" content="en_GB">
+    <meta property="og:image" content="assets/codfishpfp-smaller200.png">
     <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-    <!-- Core theme CSS -->
+    <!-- Core theme css -->
     <link rel="stylesheet" href="style.css">
-    
-    <!-- bio age update -->
-    <script type="text/javascript" src="assets/age.js"></script>
-    <!-- discord user copy -->
-    <script type="text/javascript" src="assets/clipboard.js"></script>
-    <!-- time-reactive background -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/time-background.js"></script>
+    <!-- Background animation css -->
+    <link rel="stylesheet" href="assets/animations.css">
+    <!-- my js utils -->
+    <script type="text/javascript" src="assets/utils.js"></script>
+
+    <script type="text/javascript" src="assets/jquery.min.js"></script>
   </head>
 
   <body>
@@ -41,66 +41,23 @@
     </section>
 
     <!-- gh animated corner start https://github.com/eugena/github-animated-corners/ -->
-    <a target="_blank" href="https://github.com/codfish246/linktree" class="github-corner"
-      aria-label="View source on GitHub" title="View source on GitHub">
-      <svg width="90" height="90" viewBox="0 0 250 250"
-        style="fill:#808080; color:#24292e; position: absolute; top: 0; border: 0; left: 0;">
-        <path d="M 250,0 C 161.77265,85.894309 87.828547,162.17145 0,250 V 0 Z" class="octo-background"></path>
-        <path fill="currentColor" class="octo-body"
-          d="m 71.002213,54.99879 c -4,2 -7.999513,5.002687 -11.999513,9.002687 -4,4 -7.002684,7.99951 -9.002684,11.99951 -14,4.000003 -16.998291,8.996584 -16.998291,8.996584 4,8 8.998534,11.004638 10.998534,11.004638 0,6.000001 2.000735,10.997321 7.000732,15.997321 16.000003,16 29.997315,10.00195 40.997315,2.00195 0,3 0.998782,6.99854 4.998779,10.99854 l 12.005615,10.99853 c 1,2 -1.00097,5.99976 -1.00097,5.99976 l 26.99585,-26.99585 c 0,0 -3.99878,2 -4.99878,0 l -14.00147,-14.00147 c -3,-2.000003 -5.9956,-3.002931 -7.9956,-3.002931 8,-11 14.99804,-23.997316 -2.00195,-40.997316 -5.00001,-5 -9.997324,-7.000731 -15.997324,-7.000731 -9.74434,0.903981 -14.230117,2.806088 -19.000243,4.998778 z">
-        </path>
-        <path fill="currentColor"
-          d="m 101.55303,128.29138 c -9.000003,15 -19.000004,9 -19.000004,9 -7,-3 -11,-2 -11,-2 -7.000002,1 -1.999998,-3 -1.999998,-3 4.999996,-4.00001 11,-2 11,-2 10.000001,3 15.000001,-5 16.000001,-9"
-          style="transform-origin: 110px 120px;"></path>
-        <path fill="currentColor" class="octo-ear"
-          d="m 77.06046,38.961705 c 0,0 -5.000734,2.997313 -7.000734,15.997313 -0.02844,0.01437 0.01427,-0.0072 0,0 -0.01427,0.0072 0.468872,3.99055 0.468872,3.99055 L 90.326149,53.502673 89.041673,49.929736 C 88.037671,47.914124 86.024988,42.945949 77.060474,38.961721 Z"
-          style="transform-origin: 100px 80px;"></path>
-      </svg>
-    </a>
+    <a target="_blank" href="https://github.com/codfish246/linktree" class="github-corner" aria-label="View source on GitHub" title="View source on GitHub"><svg width="90" height="90" color="#24292e" fill="#808080" style="border:0;left:0;position:absolute;top:0" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg"> <path class="octo-background" d="m250 0c-88.227 85.894-162.17 162.17-250 250v-250z"/> <path class="octo-body" d="m71.002 54.999c-4 2-7.9995 5.0027-12 9.0027s-7.0027 7.9995-9.0027 12c-14 4-16.998 8.9966-16.998 8.9966 4 8 8.9985 11.005 10.999 11.005 0 6 2.0007 10.997 7.0007 15.997 16 16 29.997 10.002 40.997 2.002 0 3 0.99878 6.9985 4.9988 10.999l12.006 10.999c1 2-1.001 5.9998-1.001 5.9998l26.996-26.996s-3.9988 2-4.9988 0l-14.001-14.001c-3-2-5.9956-3.0029-7.9956-3.0029 8-11 14.998-23.997-2.002-40.997-5-5-9.9973-7.0007-15.997-7.0007-9.7443 0.90398-14.23 2.8061-19 4.9988z" fill="currentColor"></path> <path d="m101.55 128.29c-9 15-19 9-19 9-7-3-11-2-11-2-7 1-2-3-2-3 5-4 11-2 11-2 10 3 15-5 16-9" fill="currentColor" style="transform-origin:110px 120px"/> <path class="octo-ear" d="m77.06 38.962s-5.0007 2.9973-7.0007 15.997c-0.02844 0.01437 0.01427-0.0072 0 0s0.46887 3.9906 0.46887 3.9906l19.798-5.4469-1.2845-3.5729c-1.004-2.0156-3.0167-6.9838-11.981-10.968z" fill="currentColor" style="transform-origin:100px 80px"/></svg></a> 
     <!-- gh animated corner end -->
     
     <!-- pride.codes start -->
-    <a target="_blank" href="https://pride.codes" title="pride.codes" class="pridecodes-code-corner"> <svg viewBox="0 0 149 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="pridecodes-code-corner-svg" style="position: fixed;z-index: 9999;top: 0;border: 0;right: 0;"> <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch --> <desc>Created with Sketch.</desc>     <defs></defs>     <g id="random" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">         <g id="code-Corner" transform="translate(-1.000000, -75.000000)">             <g id="code" transform="translate(112.826425, 113.080213) rotate(-45.000000) translate(-112.826425, -113.080213) translate(59.326425, 7.080213)">                 <polygon id="Rectangle-2" fill="#D3555C" points="1.35355339 4.26325641e-14 36.7088924 35.3553391 1 35.4123828"></polygon>                 <polygon id="Rectangle-2-Copy" fill="#F48D3A" points="1 35.4123828 36.7067649 35.3553391 72.0599976 70.7106781 1 70.8223826"></polygon>                 <polygon id="Rectangle-2-Copy-2" fill="#FDC753" points="1 70.8247655 72.0642315 70.7106781 106.712464 105.35891 1 106.237148"></polygon>                 <polygon id="Rectangle-2-Copy-3" fill="#70BC53" points="1 106.237148 106.712464 105.35891 69.9429112 142.128463 1 141.649531"></polygon>                 <polygon id="Rectangle-2-Copy-4" fill="#249CD5" points="1 141.649531 70.6500179 141.421356 34.5875721 177.483802 1 177.061914"></polygon>                 <polygon id="Rectangle-2-Copy-5" fill="#9D61A4" points="1 177.061914 35.2946789 176.776695 0.646446609 211.424928"></polygon>             </g>             <path d="M88.263135,101.933356 L88.263135,114.80691 L82.5586862,114.80691 L82.5586862,96.2289077 L101.136688,96.2289077 L101.175232,101.894813 L94.6228245,101.894813 L88.263135,101.933356 Z M124.879897,108.666002 L129.505126,113.29123 L89.9208764,130.134772 L85.2956476,125.509543 L124.879897,108.666002 Z M124.145428,137.815649 L124.183971,131.45596 L124.183971,124.903552 L129.849877,124.942096 L129.849877,143.520098 L111.271874,143.520098 L111.271874,137.815649 L124.145428,137.815649 Z" id="Overlay" fill="#FFFFFF" fill-rule="nonzero"></path>         </g>     </g> </svg> </a>
+    <a target="_blank" href="https://pride.codes" title="pride.codes" class="pridecodes-code-corner"><img src="assets/pridecodes-corner.svg" id="pridecodes-code-corner-svg" style="position:fixed;z-index:9999;top:0;border:0;right:0"></a>
     <!-- pride.codes end -->
 
-    <!-- temp 
-    <div>
-      <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-      </label>
-    </div>
-    -->
-    <button class="open-button" onclick="openSettings()">Open settings</button>
-    <div class="settings-popup" id="settings">
-      <div class="settings-container">
-        <h3>time-reactive background</h3><label class="switch">
-          <input type="checkbox">
-          <span class="slider round"></span>
-        </label>
-        <br/><br/><button type="button" class="btn cancel" onclick="closeSettings()">Close</button>
-      </div>
-    </div>
-
-    <script>
-      function openSettings() {
-        document.getElementById("settings").style.display = "block";
-      }
-      
-      function closeSettings() {
-        document.getElementById("settings").style.display = "none";
-      }
-      </script>
 
     <a id="profilePicture" href="#popup">
-      <img src="/assets/codfishpfp.webp" alt="Profile Picture">
+      <img src="assets/codfishpfp.webp" aria-label="Profile Picture" alt="Profile Picture" title="Click me!">
     </a>
 
     <div class="overlay" id="popup">
       <div class="popup">
         <div class="popup-photo">
-          <a href="/assets/codfishpfp.png" target="_blank">
-            <img src="/assets/codfishpfp.webp" alt="Profile Picture">
+          <a href="assets/codfishpfp.png" target="_blank">
+            <img src="assets/codfishpfp.webp" alt="Profile Picture">
           </a>
         </div>
         <div class="popup-quote">
@@ -109,7 +66,7 @@
           <p><img alt="UK Flag" src="assets/twemojiUK.svg" height="40" width="40"> <img alt="Pride Flag"
               src="assets/twemojipride.svg" height="40" width="40"></p>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <a class="popup-close" onclick="history.back()" aria-label="Close button" title="Close">&times;</a>
       </div>
     </div>
 
@@ -121,7 +78,7 @@
       <a class="link" href="https://twitter.com/Codfish246" target="_blank">
         <i class="fab fa-twitter">&nbsp;</i>Twitter
       </a>
-      <a class="link" href="#" id="discordcopy">
+      <a class="link" href="#" onclick="clipboardDiscord()">
         <i class="fab fa-discord">&nbsp;</i>Discord
       </a>
       <a class="link" href="https://telegram.me/codfish246" target="_blank">
@@ -145,12 +102,26 @@
       <a class="link" href="https://open.spotify.com/user/songcat1" target="_blank">
         <i class="fab fa-spotify">&nbsp;</i>Spotify
       </a>
+      <a class="link" href="https://www.last.fm/user/codfish246" target="_blank">
+        <i class="fab fa-lastfm">&nbsp;</i>Last.fm
+      </a>
       <a class="link" href="https://www.twitch.tv/codfish246" target="_blank">
         <i class="fab fa-twitch">&nbsp;</i>Twitch
       </a>
       <a class="link" href="https://www.youtube.com/channel/UCxg64778hbxRoZhytxrj0Jg" target="_blank">
         <i class="fab fa-youtube">&nbsp;</i>YouTube
       </a>
+    </div>
+    
+    <button class="open-button" onclick="toggleSwitch()"><i class="fas fa-cog fa-2x" aria-label="Settings button" title="Settings"></i></button>
+    <div class="settings-popup" id="settings">
+      <div class="settings-container">
+        <h3>Time-Reactive <br/>Background</h3> (<a href="https://legority.carrd.co/#photography">BG credits</a>)
+        <label class="switch">
+          <input type="checkbox" id="check1" onclick="setBgOption()">
+          <span class="slider round"></span>
+        </label>
+      </div>
     </div>
 
     <!-- disabling for now
@@ -159,5 +130,4 @@
         </div> 
     -->
   </body>
-  
 </html>
