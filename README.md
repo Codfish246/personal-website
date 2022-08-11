@@ -38,6 +38,8 @@ This is an open source project that serves as a free alternative to the Linktree
 - [Dev](https://indev.codfish.gay)
 - [Live](https://codfish.gay)
 
+<br/>
+
 - [Original demo](https://johnggli.github.io/linktree)
 ---
 
