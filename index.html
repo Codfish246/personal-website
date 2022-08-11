@@ -65,7 +65,7 @@
 
 
     <a id="profilePicture" href="#popup">
-      <img src="assets/codfishpfp.webp" alt="Profile Picture">
+      <img src="assets/codfishpfp.webp" aria-label="Profile Picture" alt="Profile Picture" title="Click me!">
     </a>
 
     <div class="overlay" id="popup">
@@ -81,7 +81,7 @@
           <p><img alt="UK Flag" src="assets/twemojiUK.svg" height="40" width="40"> <img alt="Pride Flag"
               src="assets/twemojipride.svg" height="40" width="40"></p>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <a class="popup-close" onclick="history.back()" aria-label="Close button" title="Close">&times;</a>
       </div>
     </div>
 
@@ -128,7 +128,7 @@
       </a>
     </div>
     
-    <button class="open-button" onclick="toggleSwitch()"><i class="fas fa-cog fa-2x" aria-label="Settings"></i></button>
+    <button class="open-button" onclick="toggleSwitch()"><i class="fas fa-cog fa-2x" aria-label="Settings button" title="Settings"></i></button>
     <div class="settings-popup" id="settings">
       <div class="settings-container">
         <h3>Time-Reactive <br/>Background</h3> (<a href="https://legority.carrd.co/#photography">BG credits</a>)
