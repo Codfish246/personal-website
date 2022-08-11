@@ -5,11 +5,11 @@ window.onload = function () {
       var n = d.getHours();
       if (n >= 21 || n < 1)
         $("body").css("background-image", "url('assets/night-small.webp')");
-      else if (n >= 6 && n <= 9)
+      else if (n >= 6 && n <= 10)
         $("body").css("background-image", "url('assets/sunrise.webp')");
       else if (n > 19 && n < 21)
         $("body").css("background-image", "url('assets/sunset.webp')");
-      else if (n >= 10 && n <= 19)
+      else if (n >= 11 && n <= 19)
         $("body").css("background-image", "url('assets/day-small.webp')");
       else console.log("dark gradient time");
 
@@ -35,5 +35,3 @@ function setBgOption() {
     $("body").css("background-image", "");
   }
 }
-
-//let check = document.querySelector('input#check');
