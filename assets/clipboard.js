@@ -8,7 +8,7 @@ window.onload = function () {
         alert("Codfish246#0075 copied to clipboard");
       })
       .catch((err) => {
-        alert("Error copying text: ", err);
+        alert("Codfish246#0075 \nError copying text: ", err);
       });
   };
 };
