@@ -1,3 +1,2 @@
 *.jpg
-*.webp
-assets/unused assets/*.*
+assets/unused-assets/*.webp
