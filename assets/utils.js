@@ -37,8 +37,8 @@ function setTimePicBg() {
   if (localStorage.getItem("picBg")) {
     if (localStorage.getItem("picBg") == "true") {
       var d = new Date();
-      var n = d.getHours();
-      if (n >= 21 || n < 1)
+      var n = d.getHours(); //change to t soon makes more sense
+      if (n >= 21 || n < 2)
         $("body").css("background-image", "url('assets/night-small.webp')");
       else if (n >= 6 && n <= 10)
         $("body").css("background-image", "url('assets/sunrise.webp')");
@@ -46,7 +46,7 @@ function setTimePicBg() {
         $("body").css("background-image", "url('assets/sunset.webp')");
       else if (n >= 11 && n <= 19)
         $("body").css("background-image", "url('assets/day-small.webp')");
-      else console.log("dark gradient time");
+      else console.log("dark sky gradient time");
 
       var check1 = document.getElementById("check1");
       check1.checked = true;
