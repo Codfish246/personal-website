@@ -4,11 +4,7 @@
 <h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Codfish246/linktree?color=04D361&labelColor=000000">
-  
-  <a href="https://github.com/johnggli">
-    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
-  </a>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Codfish246/linktree?color=04D361&labelColor=000000">  
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Codfish246/linktree?color=04D361&labelColor=000000">
   
@@ -27,6 +23,10 @@
   <a href="https://github.com/Codfish246/linktree/commits/master">
     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Codfish246/linktree?color=04D361&labelColor=000000">
   </a>
+  
+  <a href="https://github.com/johnggli">
+    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
+  </a> (partly)
   
 </p>
 
