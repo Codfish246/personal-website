@@ -26,7 +26,7 @@
   
   <a href="https://github.com/johnggli">
     <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
-  </a> (partly)
+  </a> <span align="right">(partly)</span>
   
 </p>
 
