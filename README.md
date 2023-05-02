@@ -31,8 +31,8 @@
 ## 💡 About the project
 
 This is an open source project that serves as a free alternative to the Linktree website.
-- [Dev](https://indev.codfish.gay)
-- [Live](https://codfish.gay)  
+- [Dev](https://indev.catbyte.gay)
+- [Live](https://catbyte.gay)  
 
 
 ---
