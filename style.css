@@ -33,7 +33,7 @@ body {
 
 /* -settings stuff start- */
 
-/* button used to open the contact form */
+/* button used to open the menu */
 .open-button {
   background-color: #555;
   color: white;
@@ -313,6 +313,8 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
   }
 }
 
+/* not used currently, think its for animated text */
+/*
 @keyframes animate {
   0% {
     background-position: -500%;
