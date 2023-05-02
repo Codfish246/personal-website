@@ -356,7 +356,7 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
   width: auto;
   height: auto;
   margin: 56px;
-  background-color: var(--accentColor);
+  background-color: var(--bgColor);
   /* transform: rotate(32deg); */
   transform: scale(0);
   transition: 0.5s ease-in-out;
@@ -368,7 +368,6 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
   position: flex;
   color: var(--accentColor);
   padding: 20px;
-  background-color: var(--bgColor);
   text-align: center;
   font-size: 1rem;
 }
