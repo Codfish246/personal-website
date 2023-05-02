@@ -17,7 +17,7 @@ body {
   padding: 0;
   min-height: 100vh;
   font-family: var(--font);
-  background: radial-gradient(
+  background: #333333 radial-gradient(
     ellipse at bottom,
     var(--bgColor) 0%,
     var(--bgColor2) 100%
