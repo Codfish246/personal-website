@@ -8,6 +8,10 @@
   --delay: 0.3s;
 }
 
+html {
+  overflow: hidden; /* fixes some issues with big bg animation creating white unfilled area at bottom of page on chromium, but breaks after reload */
+}
+
 body {
   margin: 0;
   padding: 0;
