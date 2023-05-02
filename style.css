@@ -323,15 +323,7 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
     background-position: 500%;
   }
 }
-
-@keyframes animStar {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-2000px);
-  }
-}
+*/
 
 /* popup */
 /* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
