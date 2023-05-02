@@ -8,12 +8,16 @@
   --delay: 0.3s;
 }
 
+html {
+  overflow: hidden; /* fixes some issues with big bg animation creating white unfilled area at bottom of page on chromium, but breaks after reload */
+}
+
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   font-family: var(--font);
-  background: radial-gradient(
+  background: #333333 radial-gradient(
     ellipse at bottom,
     var(--bgColor) 0%,
     var(--bgColor2) 100%
@@ -29,7 +33,7 @@ body {
 
 /* -settings stuff start- */
 
-/* button used to open the contact form */
+/* button used to open the menu */
 .open-button {
   background-color: #555;
   color: white;
@@ -309,6 +313,8 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
   }
 }
 
+/* not used currently, think its for animated text */
+/*
 @keyframes animate {
   0% {
     background-position: -500%;
@@ -317,15 +323,7 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
     background-position: 500%;
   }
 }
-
-@keyframes animStar {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-2000px);
-  }
-}
+*/
 
 /* popup */
 /* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
@@ -358,7 +356,7 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
   width: auto;
   height: auto;
   margin: 56px;
-  background-color: var(--accentColor);
+  background-color: var(--bgColor);
   /* transform: rotate(32deg); */
   transform: scale(0);
   transition: 0.5s ease-in-out;
@@ -370,7 +368,6 @@ disabling for now (flashing animated text/quote/hashtag at bottom of page)
   position: flex;
   color: var(--accentColor);
   padding: 20px;
-  background-color: var(--bgColor);
   text-align: center;
   font-size: 1rem;
 }

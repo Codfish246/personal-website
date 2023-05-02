@@ -16,17 +16,13 @@
     <img alt="GitHub Licence" src="https://img.shields.io/github/license/johnggli/linktree?color=04D361&labelColor=000000">
   </a>
   
-  <a href="https://codfish.gay">
+  <a href="https://catbyte.gay">
     <img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=down&up_color=04D361&up_message=up&url=https%3A%2F%2Fcodfish.gay?color=04D361&labelColor=000000">
   </a>
   
   <a href="https://github.com/Codfish246/linktree/commits/master">
     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Codfish246/linktree?color=04D361&labelColor=000000">
   </a>
-  
-  <a href="https://github.com/johnggli">
-    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
-  </a> <span align="right">(partly)</span>
   
 </p>
 
@@ -35,12 +31,10 @@
 ## 💡 About the project
 
 This is an open source project that serves as a free alternative to the Linktree website.
-- [Dev](https://indev.codfish.gay)
-- [Live](https://codfish.gay)
+- [Dev](https://indev.catbyte.gay)
+- [Live](https://catbyte.gay)  
 
-<br/>
 
-- [Original demo](https://johnggli.github.io/linktree)
 ---
-
-With thanks to [johnggli](https://github.com/johnggli/linktree), [pride.codes](https://pride.codes), and [github-animated-corners](https://github.com/eugena/github-animated-corners)
+  
+With thanks to [johnggli](https://github.com/johnggli/linktree), [pride.codes](https://pride.codes), [github-animated-corners](https://github.com/eugena/github-animated-corners)
