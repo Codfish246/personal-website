@@ -120,12 +120,12 @@
       </a> <!-- maybe think about spacing/amount of these link blocks? -->
     </div>
     
-    <button class="open-button" onclick="toggleSwitch()"><i class="fas fa-cog fa-2x" aria-label="Settings button" title="Settings"></i></button>
+    <button class="open-button" onclick="toggleSwitch()"><i class="fas fa-cog fa-2x" aria-label="Settings button" tabindex="0" title="Settings"></i></button>
     <div class="settings-popup" id="settings">
       <div class="settings-container">
-        <h3>Time-Reactive <br/>Background</h3> (<a href="https://legority.carrd.co/#photography">BG credits^</a>)<br/>(<a href="https://indev.codfish.gay">in-dev site</a>)
+        <h3>Time-Reactive <br/>Background</h3> <!--(<a target="_blank" href="https://legority.carrd.co/#photography">BG credits</a>)<br/>-->(<a target="_blank" href="https://indev.codfish.gay">in-dev site</a>)
         <label class="switch">
-          <input type="checkbox" id="check1" onclick="setBgOption()">
+          <input type="checkbox" tabindex="0" id="check1" onclick="setBgOption()">
           <span class="slider round"></span>
         </label>
       </div>
