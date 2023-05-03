@@ -10,8 +10,8 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Codfish246/linktree?color=04D361&labelColor=000000">
   </a>
   
-  <a href="https://github.com/johnggli/linktree/blob/master/LICENSE.md">
-    <img alt="GitHub Licence" src="https://img.shields.io/github/license/johnggli/linktree?color=04D361&labelColor=000000">
+  <a href="https://github.com/Codfish246/personal-website/blob/main/LICENSE.md">
+    <img alt="GitHub Licence" src="https://img.shields.io/github/license/codfish246/personal-website?color=04D361&labelColor=000000">
   </a>
   
   <a href="https://catbyte.gay">
