@@ -1,7 +1,5 @@
-### Personal fork
-
-<h1 align="center">🌲 Linktree</h1>
-<h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
+<h1 align="center">simple personal website</h1>
+<h3 align="center">small site for a bit of info, a few links and a linktree-style socials section</h3>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Codfish246/linktree?color=04D361&labelColor=000000">  
@@ -28,13 +26,14 @@
 
 ---
 
-## 💡 About the project
+### about
 
-This is an open source project that serves as a free alternative to the Linktree website.
+...  
+Examples:
 - [Dev](https://indev.catbyte.gay)
 - [Live](https://catbyte.gay)  
 
 
 ---
   
-With thanks to [johnggli](https://github.com/johnggli/linktree), [pride.codes](https://pride.codes), [github-animated-corners](https://github.com/eugena/github-animated-corners)
+With thanks to [johnggli - OSS linktree](https://github.com/johnggli/linktree), [pride.codes](https://pride.codes), [github-animated-corners](https://github.com/eugena/github-animated-corners)
