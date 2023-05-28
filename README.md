@@ -21,7 +21,19 @@
   <a href="https://github.com/Codfish246/linktree/commits/master">
     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Codfish246/linktree?color=04D361&labelColor=000000">
   </a>
-  
+  <br/>
+  <a href="https://forthebadge.com">
+    <img alt="Powered by Electricity" src="https://forthebadge.com/images/badges/powered-by-electricity.svg">
+  </a>
+  <a href="https://forthebadge.com">
+    <img alt="Uses HTML" src="https://forthebadge.com/images/badges/uses-html.svg">
+  </a>
+  <a href="https://forthebadge.com">
+    <img alt="Compatibility: Betamax" src="https://forthebadge.com/images/badges/compatibility-betamax.svg">
+  </a>
+  <a href="https://forthebadge.com">
+    <img alt="0% Optimised" src="https://forthebadge.com/images/badges/0-percent-optimized.svg">
+  </a>
 </p>
 
 ---
